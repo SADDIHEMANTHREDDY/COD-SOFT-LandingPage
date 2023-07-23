@@ -1,0 +1,106 @@
+/* Reset some default styles for better consistency */
+* {
+    
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    
+}
+
+/* Styling the header */
+.header {
+    
+    padding: 10px;
+    height: 70px;
+    
+}
+
+.header h1 {
+    font-size: 32px;
+    text-emphasis-position: top;
+    
+}
+
+.header nav ul {
+    font-size: 25px;
+    text-emphasis-position: top;
+    list-style: circle;
+    text-align: end;
+    top: 0;
+    width: 100%;
+    
+    
+}
+
+.header nav li {
+    display: inline-block;
+    margin-left: 20px;
+    text-align: end;
+    text-decoration-line: underline;
+
+}
+
+.header nav li:first-child {
+    margin-left: 0;
+    text-align: end;   
+    
+}
+
+.header nav a {
+    
+    text-decoration: none;
+}
+
+/* Styling the main section */
+.main-section {
+    
+    padding: 50px 0;
+    text-align: center;   
+
+}
+
+.main-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+
+.main-section h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-decoration-line: underline;
+    color: lightcyan;
+    text-transform: uppercase;
+    block-size: auto;
+
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 20px;
+    text-decoration: underline;
+    color: lightcoral;
+    
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Styling the footer */
+.footer {
+    
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.footer p {
+    font-size: 14px;
+    position: static;
+    color: black;
+}
